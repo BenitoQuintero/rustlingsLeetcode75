@@ -1,6 +1,6 @@
 # Don't edit the `bin` list manually! It is updated by `rustlings dev update`
 bin = [
-  { name = "intro1", path = "exercises/intro1.rs" },
+  { name = "array_string1", path = "exercises/array_string1.rs" },
 ]
 
 [package]
