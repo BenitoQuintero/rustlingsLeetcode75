@@ -7,19 +7,19 @@
 format_version = 1
 
 # Optional multi-line message to be shown to users when just starting with the exercises.
-welcome_message = """Welcome to these community Rustlings exercises."""
+welcome_message = """Welcome to the Leetcode75 Rustlings exercises."""
 
 # Optional multi-line message to be shown to users after finishing all exercises.
 final_message = """We hope that you found the exercises helpful :D"""
 
 # Repeat this section for every exercise.
-[[exercises]]
-# Exercise name which is the exercise file name without the `.rs` extension.
-name = "array_string1"
-hint = """
-String and Array
-"""
-test = true
+# [[exercises]]
+# # Exercise name which is the exercise file name without the `.rs` extension.
+# name = "array_string1"
+# hint = """
+# String and Array
+# """
+# test = true
 
 # Optional directory name to be provided if you want to organize exercises in directories.
 # If `dir` is specified, the exercise path is `exercises/DIR/NAME.rs`
@@ -38,3 +38,19 @@ test = true
 
 # A multi-line hint to be shown to users on request.
 #hint = """???"""
+
+[[exercises]]
+name = "array_string1"
+hint = """
+Use two pointers, one pointer for each string.
+Alternately choose the character from each pointer,and move the pointer upwards.
+"""
+test = true
+
+[[exercises]]
+name = "array_string2"
+hint = """
+The greatest common divisor must be a prefix of each string, so we can try all prefixes.
+"""
+test = true
+

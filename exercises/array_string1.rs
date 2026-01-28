@@ -5,7 +5,7 @@
 // Return the merged string.
 
 // TODO: Complete this function.
-pub fn merge_alternately(word1: String, word2: String) -> String {}
+fn merge_alternately(word1: String, word2: String) -> String {}
 
 fn main() {
     // You can optionally experiment here.
