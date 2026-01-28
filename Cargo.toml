@@ -1,0 +1,12 @@
+# Don't edit the `bin` list manually! It is updated by `rustlings dev update`
+bin = [
+  { name = "intro1", path = "exercises/intro1.rs" },
+]
+
+[package]
+name = "exercises"
+edition = "2024"
+# Don't publish the exercises on crates.io!
+publish = false
+
+[dependencies]
