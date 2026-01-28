@@ -39,6 +39,7 @@ final_message = """We hope that you found the exercises helpful :D"""
 # A multi-line hint to be shown to users on request.
 #hint = """???"""
 
+# 1768. Merge Strings Alternately
 [[exercises]]
 name = "array_string1"
 hint = """
@@ -47,10 +48,67 @@ Alternately choose the character from each pointer,and move the pointer upwards.
 """
 test = true
 
+# 1071. Greatest Common Divisor of Strings
 [[exercises]]
 name = "array_string2"
 hint = """
 The greatest common divisor must be a prefix of each string, so we can try all prefixes.
+"""
+test = true
+
+# 1431. Kids With the Greatest Number of Candies
+[[exercises]]
+name = "array_string3"
+hint = """
+For each kid check if candies[i] + extraCandies ≥ maximum in Candies[i].
+"""
+test = true
+
+# 605. Can Place Flowers
+[[exercises]]
+name = "array_string4"
+hint = """
+Make sure to place flowers when they can be placed.
+"""
+test = true
+
+# 345. Reverse Vowels of a String
+[[exercises]]
+name = "array_string5"
+hint = """
+Use a stack to store the vowels.
+"""
+test = true
+
+# 151. Reverse Words in a String
+[[exercises]]
+name = "array_string6"
+hint = """
+Split the string into words, and reverse each word.
+"""
+test = true
+
+# 238. Product of Array Except Self
+[[exercises]]
+name = "array_string7"
+hint = """
+Think how you can efficiently utilize prefix and suffix products to calculate the product of all elements except self for each index.
+"""
+test = true
+
+# 334. Increasing Triplet Subsequence
+[[exercises]]
+name = "array_string8"
+hint = """
+Your on your own.
+"""
+test = true
+
+# 443. String Compression
+[[exercises]]
+name = "array_string9"
+hint = """
+How do you know if you are at the end of a consecutive group of characters?
 """
 test = true
 

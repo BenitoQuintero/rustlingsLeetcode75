@@ -2,6 +2,13 @@
 bin = [
   { name = "array_string1", path = "exercises/array_string1.rs" },
   { name = "array_string2", path = "exercises/array_string2.rs" },
+  { name = "array_string3", path = "exercises/array_string3.rs" },
+  { name = "array_string4", path = "exercises/array_string4.rs" },
+  { name = "array_string5", path = "exercises/array_string5.rs" },
+  { name = "array_string6", path = "exercises/array_string6.rs" },
+  { name = "array_string7", path = "exercises/array_string7.rs" },
+  { name = "array_string8", path = "exercises/array_string8.rs" },
+  { name = "array_string9", path = "exercises/array_string9.rs" },
 ]
 
 [package]
