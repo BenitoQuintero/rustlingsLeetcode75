@@ -23,23 +23,23 @@ mod tests {
     use super::*;
 
     #[test]
-    fn simple_test1() {
+    fn case1() {
         let s = String::from("the sky is blue");
         let ans = reverse_words(s);
-        assert_eq(ans, String::from("blue is sky the"))
+        assert_eq!(ans, String::from("blue is sky the"))
     }
 
     #[test]
-    fn simple_test2() {
+    fn case2() {
         let s = String::from("  hello world  ");
         let ans = reverse_words(s);
-        assert_eq(ans, String::from("world hello"))
+        assert_eq!(ans, String::from("world hello"))
     }
 
     #[test]
-    fn simple_test3() {
+    fn case3() {
         let s = String::from("a good   example");
         let ans = reverse_words(s);
-        assert_eq(ans, String::from("example good a"))
+        assert_eq!(ans, String::from("example good a"))
     }
 }

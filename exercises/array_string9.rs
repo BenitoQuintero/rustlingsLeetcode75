@@ -27,25 +27,25 @@ mod tests {
     use super::*;
 
     #[test]
-    fn simple_test1() {
-        let mut input = vec!["a", "a", "b", "b", "c", "c", "c"];
-        let ans = compress(input);
-        assert_eq(ans, 6)
+    fn case1() {
+        let mut input: Vec<char> = vec!['a', 'a', 'b', 'b', 'c', 'c', 'c'];
+        let ans = compress(&mut input);
+        assert_eq!(ans, 6)
     }
 
     #[test]
-    fn simple_test2() {
-        let mut input = vec!["a"];
-        let ans = compress(input);
-        assert_eq(ans, 1)
+    fn case2() {
+        let mut input = vec!['a'];
+        let ans = compress(&mut input);
+        assert_eq!(ans, 1)
     }
 
     #[test]
-    fn simple_test2() {
+    fn case3() {
         let mut input = vec![
-            "a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b",
+            'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b',
         ];
-        let ans = compress(input);
-        assert_eq(ans, 4)
+        let ans = compress(&mut input);
+        assert_eq!(ans, 4)
     }
 }

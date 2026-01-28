@@ -20,26 +20,26 @@ mod tests {
     use super::*;
 
     #[test]
-    fn simple_test1() {
-        let candies = vec![2, 3, 5, 11, 3];
-        let extraCandies = 3;
+    fn case1() {
+        let candies = vec![2, 3, 5, 1, 3];
+        let extra_candies = 3;
         let ans = kids_with_candies(candies, extra_candies);
-        assert_eq(ans, vec![true, true, true, false, true])
+        assert_eq!(ans, vec![true, true, true, false, true])
     }
 
     #[test]
-    fn simple_test2() {
+    fn case2() {
         let candies = vec![4, 2, 1, 1, 2];
-        let extraCandies = 1;
+        let extra_candies = 1;
         let ans = kids_with_candies(candies, extra_candies);
-        assert_eq(ans, vec![true, false, false, false, false])
+        assert_eq!(ans, vec![true, false, false, false, false])
     }
 
     #[test]
-    fn simple_test3() {
+    fn case3() {
         let candies = vec![12, 1, 12];
-        let extraCandies = 10;
+        let extra_candies = 10;
         let ans = kids_with_candies(candies, extra_candies);
-        assert_eq(ans, vec![true, false, true])
+        assert_eq!(ans, vec![true, false, true])
     }
 }

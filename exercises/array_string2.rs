@@ -17,7 +17,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn simple_test1() {
+    fn case1() {
         let str1 = String::from("ABCABC");
         let str2 = String::from("ABC");
         let ans = gcd_of_strings(str1, str2);
@@ -25,7 +25,7 @@ mod tests {
     }
 
     #[test]
-    fn simple_test2() {
+    fn case2() {
         let str1 = String::from("ABABAB");
         let str2 = String::from("ABAB");
         let ans = gcd_of_strings(str1, str2);
@@ -33,7 +33,7 @@ mod tests {
     }
 
     #[test]
-    fn no_substring_test() {
+    fn case3() {
         let str1 = String::from("LEET");
         let str2 = String::from("CODE");
         let ans = gcd_of_strings(str1, str2);
@@ -41,7 +41,7 @@ mod tests {
     }
 
     #[test]
-    fn failed_test2() {
+    fn case4() {
         let str1 = String::from("AAAAAB");
         let str2 = String::from("AAA");
         let ans = gcd_of_strings(str1, str2);

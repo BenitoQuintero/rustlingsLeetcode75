@@ -16,23 +16,23 @@ mod tests {
     use super::*;
 
     #[test]
-    fn simple_test1() {
+    fn case1() {
         let nums = vec![1, 2, 3, 4, 5];
         let ans = increasing_triplet(nums);
-        assert_eq(ans, true)
+        assert!(ans)
     }
 
     #[test]
-    fn simple_test2() {
+    fn case2() {
         let nums = vec![5, 4, 3, 2, 1];
         let ans = increasing_triplet(nums);
-        assert_eq(ans, false)
+        assert!(!ans)
     }
 
     #[test]
-    fn simple_test3() {
+    fn case3() {
         let nums = vec![2, 1, 5, 0, 4, 6];
         let ans = increasing_triplet(nums);
-        assert_eq(ans, true)
+        assert!(ans)
     }
 }

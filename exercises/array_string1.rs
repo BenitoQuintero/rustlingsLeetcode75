@@ -18,7 +18,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn equal_length_words() {
+    fn case1() {
         let word1 = String::from("abc");
         let word2 = String::from("pqr");
         let ans = merge_alternately(word1, word2);
@@ -26,7 +26,7 @@ mod tests {
     }
 
     #[test]
-    fn first_word_longer() {
+    fn case2() {
         let word1 = String::from("ab");
         let word2 = String::from("pqrs");
         let ans = merge_alternately(word1, word2);
@@ -34,7 +34,7 @@ mod tests {
     }
 
     #[test]
-    fn second_word_longer() {
+    fn case3() {
         let word1 = String::from("abcd");
         let word2 = String::from("pq");
         let ans = merge_alternately(word1, word2);

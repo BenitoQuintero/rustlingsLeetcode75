@@ -19,18 +19,18 @@ mod tests {
     use super::*;
 
     #[test]
-    fn simple_test1() {
+    fn case1() {
         let flowerbed = vec![1, 0, 0, 0, 1];
         let n = 1;
         let ans = can_place_flowers(flowerbed, n);
-        assert_eq(ans, true)
+        assert!(ans)
     }
 
     #[test]
-    fn simple_test2() {
+    fn case2() {
         let flowerbed = vec![1, 0, 0, 0, 1];
         let n = 2;
         let ans = can_place_flowers(flowerbed, n);
-        assert_eq(ans, false)
+        assert!(!ans)
     }
 }
