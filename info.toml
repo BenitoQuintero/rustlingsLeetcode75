@@ -39,6 +39,16 @@ final_message = """We hope that you found the exercises helpful :D"""
 # A multi-line hint to be shown to users on request.
 #hint = """???"""
 
+
+# [[exercises]]
+# name = ""
+# hint = """
+# """
+# test = true
+
+
+# String and Array #
+
 # 1768. Merge Strings Alternately
 [[exercises]]
 name = "array_string1"
@@ -109,6 +119,40 @@ test = true
 name = "array_string9"
 hint = """
 How do you know if you are at the end of a consecutive group of characters?
+"""
+test = true
+
+# Two Pointers #
+
+# 283. Move Zeroes
+[[exercises]]
+name = "two_pointers1"
+hint = """
+The idea would be to have one pointer for iterating the array and another pointer that just works on the non-zero elements of the array.
+"""
+test = true
+
+# 392. Is Subsequence
+[[exercises]]
+name = "two_pointers2"
+hint = """
+Iterate through both string simultaneously.
+"""
+test = true
+
+# 11. Container With Most Water
+[[exercises]]
+name = "two_pointers3"
+hint = """
+Set one pointer to the left and one to the right of the array. Always move the pointer that points to the lower line.
+"""
+test = true
+
+# 1679. Max Number of K-Sum Pairs
+[[exercises]]
+name = "two_pointers4"
+hint = """
+For each possible value x, it can be paired up with k - x.
 """
 test = true
 

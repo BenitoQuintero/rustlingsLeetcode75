@@ -9,6 +9,10 @@ bin = [
   { name = "array_string7", path = "exercises/array_string7.rs" },
   { name = "array_string8", path = "exercises/array_string8.rs" },
   { name = "array_string9", path = "exercises/array_string9.rs" },
+  { name = "two_pointers1", path = "exercises/two_pointers1.rs" },
+  { name = "two_pointers2", path = "exercises/two_pointers2.rs" },
+  { name = "two_pointers3", path = "exercises/two_pointers3.rs" },
+  { name = "two_pointers4", path = "exercises/two_pointers4.rs" },
 ]
 
 [package]
