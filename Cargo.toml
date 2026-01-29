@@ -13,6 +13,10 @@ bin = [
   { name = "is_subsequence", path = "exercises/two_pointers/is_subsequence.rs" },
   { name = "max_area", path = "exercises/two_pointers/max_area.rs" },
   { name = "max_operations", path = "exercises/two_pointers/max_operations.rs" },
+  { name = "find_max_average", path = "exercises/sliding_window/find_max_average.rs" },
+  { name = "max_vowels", path = "exercises/sliding_window/max_vowels.rs" },
+  { name = "longest_ones", path = "exercises/sliding_window/longest_ones.rs" },
+  { name = "longest_subarray", path = "exercises/sliding_window/longest_subarray.rs" },
 ]
 
 [package]

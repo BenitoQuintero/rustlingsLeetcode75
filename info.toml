@@ -169,3 +169,41 @@ For each possible value x, it can be paired up with k - x.
 """
 test = true
 
+# Sliding Window #
+
+# 643. Maximum Average Subarray I
+[[exercises]]
+name = "find_max_average"
+dir = "sliding_window"
+hint = """
+Track the changes to the max sum.
+"""
+test = true
+
+# 1456. Maximum Number of Vowels in a Substring of Given Length
+[[exercises]]
+name = "max_vowels"
+dir = "sliding_window"
+hint = """
+Keep a window of size k and maintain the number of vowels in it.
+"""
+test = true
+
+# 1004. Max Consecutive Ones III
+[[exercises]]
+name = "longest_ones"
+dir = "sliding_window"
+hint = """
+The way to shrink or expand a window would be based on the number of zeros that can still be flipped and so on.
+"""
+test = true
+
+# 1493. Longest Subarray of 1's After Deleting One Element
+[[exercises]]
+name = "longest_subarray"
+dir = "sliding_window"
+hint = """
+Maintain a sliding window where there is at most one zero in it.
+"""
+test = true
+
