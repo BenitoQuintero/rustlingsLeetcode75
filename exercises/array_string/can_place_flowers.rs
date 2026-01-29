@@ -7,8 +7,9 @@
 // and an integer n, return true if n new flowers can be planted in the flowerbed without violating the
 // no-adjacent-flowers rule and false otherwise.
 
-// TODO: Complete this function.
-fn can_place_flowers(flowerbed: Vec<i32>, n: i32) -> bool {}
+fn can_place_flowers(mut flowerbed: Vec<i32>, n: i32) -> bool {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

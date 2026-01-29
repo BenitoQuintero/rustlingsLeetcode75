@@ -7,8 +7,9 @@
 //
 // Return the maximum number of operations you can perform on the array.
 
-// TODO: Complete this function.
-fn max_operations(nums: Vec<i32>, k: i32) -> i32 {}
+fn max_operations(nums: Vec<i32>, k: i32) -> i32 {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

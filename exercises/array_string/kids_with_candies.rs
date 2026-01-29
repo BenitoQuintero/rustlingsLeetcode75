@@ -8,8 +8,9 @@
 //
 // Note that multiple kids can have the greatest number of candies.
 
-// TODO: Complete this function.
-fn kids_with_candies(candies: Vec<i32>, extra_candies: i32) -> Vec<bool> {}
+fn kids_with_candies(candies: Vec<i32>, extra_candies: i32) -> Vec<bool> {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

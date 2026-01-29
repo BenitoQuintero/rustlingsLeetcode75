@@ -1,18 +1,18 @@
 # Don't edit the `bin` list manually! It is updated by `rustlings dev update`
 bin = [
-  { name = "array_string1", path = "exercises/array_string1.rs" },
-  { name = "array_string2", path = "exercises/array_string2.rs" },
-  { name = "array_string3", path = "exercises/array_string3.rs" },
-  { name = "array_string4", path = "exercises/array_string4.rs" },
-  { name = "array_string5", path = "exercises/array_string5.rs" },
-  { name = "array_string6", path = "exercises/array_string6.rs" },
-  { name = "array_string7", path = "exercises/array_string7.rs" },
-  { name = "array_string8", path = "exercises/array_string8.rs" },
-  { name = "array_string9", path = "exercises/array_string9.rs" },
-  { name = "two_pointers1", path = "exercises/two_pointers1.rs" },
-  { name = "two_pointers2", path = "exercises/two_pointers2.rs" },
-  { name = "two_pointers3", path = "exercises/two_pointers3.rs" },
-  { name = "two_pointers4", path = "exercises/two_pointers4.rs" },
+  { name = "merge_alternatively", path = "exercises/array_string/merge_alternatively.rs" },
+  { name = "gcd_of_strings", path = "exercises/array_string/gcd_of_strings.rs" },
+  { name = "kids_with_candies", path = "exercises/array_string/kids_with_candies.rs" },
+  { name = "can_place_flowers", path = "exercises/array_string/can_place_flowers.rs" },
+  { name = "reverse_vowels", path = "exercises/array_string/reverse_vowels.rs" },
+  { name = "reverse_words", path = "exercises/array_string/reverse_words.rs" },
+  { name = "product_except_self", path = "exercises/array_string/product_except_self.rs" },
+  { name = "increasing_triplet", path = "exercises/array_string/increasing_triplet.rs" },
+  { name = "compress", path = "exercises/array_string/compress.rs" },
+  { name = "move_zeros", path = "exercises/two_pointers/move_zeros.rs" },
+  { name = "is_subsequence", path = "exercises/two_pointers/is_subsequence.rs" },
+  { name = "max_area", path = "exercises/two_pointers/max_area.rs" },
+  { name = "max_operations", path = "exercises/two_pointers/max_operations.rs" },
 ]
 
 [package]

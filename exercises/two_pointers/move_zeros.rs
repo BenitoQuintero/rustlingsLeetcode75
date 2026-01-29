@@ -5,8 +5,9 @@
 //
 // Note that you must do this in-place without making a copy of the array.
 
-// TODO: Complete this function.
-fn move_zeroes(nums: &mut Vec<i32>) {}
+fn move_zeroes(nums: &mut Vec<i32>) {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

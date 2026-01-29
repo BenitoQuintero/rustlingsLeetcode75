@@ -11,8 +11,9 @@
 //
 // Notice that you may not slant the container.
 
-// TODO: Complete this function.
-fn max_area(height: Vec<i32>) -> i32 {}
+fn max_area(height: Vec<i32>) -> i32 {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

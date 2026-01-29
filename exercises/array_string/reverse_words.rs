@@ -11,8 +11,9 @@
 // The returned string should only have a single space separating the words.
 // Do not include any extra spaces.
 
-// TODO: Complete this function.
-fn reverse_words(s: String) -> String {}
+fn reverse_words(s: String) -> String {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

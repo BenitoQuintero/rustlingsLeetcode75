@@ -6,8 +6,9 @@
 //
 // Return the merged string.
 
-// TODO: Complete this function.
-fn merge_alternately(word1: String, word2: String) -> String {}
+fn merge_alternately(word1: String, word2: String) -> String {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

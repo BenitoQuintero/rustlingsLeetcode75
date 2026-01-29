@@ -6,8 +6,9 @@
 // deleting some (can be none) of the characters without disturbing the relative positions
 // of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
 
-// TODO: Complete this function.
-fn is_subsequence(s: String, t: String) -> bool {}
+fn is_subsequence(s: String, t: String) -> bool {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

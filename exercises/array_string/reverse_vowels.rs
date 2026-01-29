@@ -4,8 +4,22 @@
 //
 // The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower and upper cases, more than once.
 
-// TODO: Complete this function.
-fn reverse_vowels(s: String) -> String {}
+fn reverse_vowels(s: String) -> String {
+    // TODO: Complete this function.
+}
+
+fn is_vowel(ch: char) -> bool {
+    ch == 'a'
+        || ch == 'e'
+        || ch == 'i'
+        || ch == 'o'
+        || ch == 'u'
+        || ch == 'A'
+        || ch == 'E'
+        || ch == 'I'
+        || ch == 'O'
+        || ch == 'U'
+}
 
 fn main() {
     // You can optionally experiment here.

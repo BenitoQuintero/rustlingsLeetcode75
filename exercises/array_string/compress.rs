@@ -15,8 +15,9 @@
 //
 // Note: The characters in the array beyond the returned length do not matter and should be ignored.
 
-// TODO: Complete this function.
-fn compress(chars: &mut Vec<char>) -> i32 {}
+fn compress(chars: &mut Vec<char>) -> i32 {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

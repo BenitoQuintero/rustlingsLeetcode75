@@ -4,8 +4,9 @@
 // (i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k].
 // If no such indices exists, return false.
 
-// TODO: Complete this function.
-fn increasing_triplet(nums: Vec<i32>) -> bool {}
+fn increasing_triplet(nums: Vec<i32>) -> bool {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

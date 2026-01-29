@@ -7,8 +7,9 @@
 //
 // You must write an algorithm that runs in O(n) time and without using the division operation.
 
-// TODO: Complete this function.
-fn product_except_self(nums: Vec<i32>) -> Vec<i32> {}
+fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.

@@ -5,8 +5,9 @@
 //
 // Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.
 
-// TODO: Complete this function.
-fn gcd_of_strings(str1: String, str2: String) -> String {}
+fn gcd_of_strings(str1: String, str2: String) -> String {
+    // TODO: Complete this function.
+}
 
 fn main() {
     // You can optionally experiment here.
