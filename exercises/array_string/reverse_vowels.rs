@@ -33,13 +33,13 @@ mod tests {
     fn case1() {
         let s = String::from("IceCreAm");
         let ans = reverse_vowels(s);
-        assert_eq!(ans, String::from("AceCreIm"))
+        assert_eq!(ans, String::from("AceCreIm"));
     }
 
     #[test]
     fn case2() {
         let s = String::from("leetcode");
         let ans = reverse_vowels(s);
-        assert_eq!(ans, String::from("leotcede"))
+        assert_eq!(ans, String::from("leotcede"));
     }
 }

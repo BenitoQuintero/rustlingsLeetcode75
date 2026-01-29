@@ -20,20 +20,20 @@ mod tests {
     fn case1() {
         let nums = vec![1, 2, 3, 4, 5];
         let ans = increasing_triplet(nums);
-        assert!(ans)
+        assert!(ans);
     }
 
     #[test]
     fn case2() {
         let nums = vec![5, 4, 3, 2, 1];
         let ans = increasing_triplet(nums);
-        assert!(!ans)
+        assert!(!ans);
     }
 
     #[test]
     fn case3() {
         let nums = vec![2, 1, 5, 0, 4, 6];
         let ans = increasing_triplet(nums);
-        assert!(ans)
+        assert!(ans);
     }
 }

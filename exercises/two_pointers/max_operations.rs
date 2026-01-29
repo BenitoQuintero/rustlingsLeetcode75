@@ -25,7 +25,7 @@ mod tests {
         let nums = vec![1, 2, 3, 4];
         let k = 5;
         let ans = max_operations(nums, k);
-        assert_eq!(ans, 2)
+        assert_eq!(ans, 2);
     }
 
     #[test]
@@ -33,6 +33,6 @@ mod tests {
         let nums = vec![3, 1, 3, 4, 3];
         let k = 6;
         let ans = max_operations(nums, k);
-        assert_eq!(ans, 1)
+        assert_eq!(ans, 1);
     }
 }

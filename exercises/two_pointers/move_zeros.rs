@@ -22,13 +22,13 @@ mod tests {
     fn case1() {
         let mut nums = vec![0, 1, 0, 3, 12];
         move_zeroes(&mut nums);
-        assert_eq!(nums, vec![1, 3, 12, 0, 0])
+        assert_eq!(nums, vec![1, 3, 12, 0, 0]);
     }
 
     #[test]
     fn case2() {
         let mut nums = vec![0];
         move_zeroes(&mut nums);
-        assert_eq!(nums, vec![0])
+        assert_eq!(nums, vec![0]);
     }
 }

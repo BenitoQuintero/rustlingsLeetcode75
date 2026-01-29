@@ -23,13 +23,13 @@ mod tests {
     fn case1() {
         let nums = vec![1, 2, 3, 4];
         let ans = product_except_self(nums);
-        assert_eq!(ans, vec![24, 12, 8, 6])
+        assert_eq!(ans, vec![24, 12, 8, 6]);
     }
 
     #[test]
     fn case2() {
         let nums = vec![-1, 1, 0, -3, 3];
         let ans = product_except_self(nums);
-        assert_eq!(ans, vec![0, 0, 9, 0, 0])
+        assert_eq!(ans, vec![0, 0, 9, 0, 0]);
     }
 }

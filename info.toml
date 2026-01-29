@@ -207,3 +207,22 @@ Maintain a sliding window where there is at most one zero in it.
 """
 test = true
 
+# Prefix Sum #
+
+# 1732. Find the Highest Altitude
+[[exercises]]
+name = "largest_altitude"
+dir = "prefix_sum"
+hint = """
+Getting the altitudes can be done by getting the prefix sum array of the given array.
+"""
+test = true
+
+# 724. Find Pivot Index
+[[exercises]]
+name = "pivot_index"
+dir = "prefix_sum"
+hint = """
+For each index i, check if sumLeft[i] equals sumRight[i]. If so, return i. If no such i is found, return -1.
+"""
+test = true

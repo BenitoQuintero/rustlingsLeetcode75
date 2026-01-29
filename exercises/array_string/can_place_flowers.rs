@@ -24,7 +24,7 @@ mod tests {
         let flowerbed = vec![1, 0, 0, 0, 1];
         let n = 1;
         let ans = can_place_flowers(flowerbed, n);
-        assert!(ans)
+        assert!(ans);
     }
 
     #[test]
@@ -32,6 +32,6 @@ mod tests {
         let flowerbed = vec![1, 0, 0, 0, 1];
         let n = 2;
         let ans = can_place_flowers(flowerbed, n);
-        assert!(!ans)
+        assert!(!ans);
     }
 }

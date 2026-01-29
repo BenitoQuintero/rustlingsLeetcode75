@@ -28,13 +28,13 @@ mod tests {
     fn case1() {
         let height = vec![1, 8, 6, 2, 5, 4, 8, 3, 7];
         let ans = max_area(height);
-        assert_eq!(ans, 49)
+        assert_eq!(ans, 49);
     }
 
     #[test]
     fn case2() {
         let height = vec![1, 1];
         let ans = max_area(height);
-        assert_eq!(ans, 1)
+        assert_eq!(ans, 1);
     }
 }

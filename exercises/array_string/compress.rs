@@ -31,14 +31,14 @@ mod tests {
     fn case1() {
         let mut input: Vec<char> = vec!['a', 'a', 'b', 'b', 'c', 'c', 'c'];
         let ans = compress(&mut input);
-        assert_eq!(ans, 6)
+        assert_eq!(ans, 6);
     }
 
     #[test]
     fn case2() {
         let mut input = vec!['a'];
         let ans = compress(&mut input);
-        assert_eq!(ans, 1)
+        assert_eq!(ans, 1);
     }
 
     #[test]
@@ -47,6 +47,6 @@ mod tests {
             'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b',
         ];
         let ans = compress(&mut input);
-        assert_eq!(ans, 4)
+        assert_eq!(ans, 4);
     }
 }

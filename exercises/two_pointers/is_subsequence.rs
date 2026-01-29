@@ -24,7 +24,7 @@ mod tests {
         let s = String::from("abc");
         let t = String::from("ahbgdc");
         let ans = is_subsequence(s, t);
-        assert!(ans)
+        assert!(ans);
     }
 
     #[test]
@@ -32,6 +32,6 @@ mod tests {
         let s = String::from("axc");
         let t = String::from("ahbgdc");
         let ans = is_subsequence(s, t);
-        assert!(!ans)
+        assert!(!ans);
     }
 }
