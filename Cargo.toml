@@ -19,6 +19,10 @@ bin = [
   { name = "longest_subarray", path = "exercises/sliding_window/longest_subarray.rs" },
   { name = "largest_altitude", path = "exercises/prefix_sum/largest_altitude.rs" },
   { name = "pivot_index", path = "exercises/prefix_sum/pivot_index.rs" },
+  { name = "find_difference", path = "exercises/hashmap_set/find_difference.rs" },
+  { name = "unique_occurrences", path = "exercises/hashmap_set/unique_occurrences.rs" },
+  { name = "close_strings", path = "exercises/hashmap_set/close_strings.rs" },
+  { name = "equal_pairs", path = "exercises/hashmap_set/equal_pairs.rs" },
 ]
 
 [package]

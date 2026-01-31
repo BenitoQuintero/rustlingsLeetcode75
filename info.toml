@@ -226,3 +226,44 @@ hint = """
 For each index i, check if sumLeft[i] equals sumRight[i]. If so, return i. If no such i is found, return -1.
 """
 test = true
+
+# Hash Map / Set #
+
+# 2215. Find the Difference of Two Arrays
+[[exercises]]
+name = "find_difference"
+dir = "hashmap_set"
+hint = """
+For each integer in nums1, check if it exists in nums2.
+"""
+test = true
+
+# 1207. Unique Number of Occurrences
+[[exercises]]
+name = "unique_occurrences"
+dir = "hashmap_set"
+hint = """
+Find the number of occurrences of each element in the array using a hash map.
+"""
+test = true
+
+# 1657. Determine if Two Strings Are Close
+[[exercises]]
+name = "close_strings"
+dir = "hashmap_set"
+hint = """
+Operation 1 allows you to freely reorder the string.
+Operation 2 allows you to freely reassign the letters' frequencies.
+"""
+test = true
+
+# 2352. Equal Row and Column Pairs
+[[exercises]]
+name = "equal_pairs"
+dir = "hashmap_set"
+hint = """
+Hint 1: We can use nested loops to compare every row against every column.
+Hint 2: Another loop is necessary to compare the row and column element by element.
+Hint 3: It is also possible to hash the arrays and compare the hashed values instead.
+"""
+test = true
