@@ -23,6 +23,9 @@ bin = [
   { name = "unique_occurrences", path = "exercises/hashmap_set/unique_occurrences.rs" },
   { name = "close_strings", path = "exercises/hashmap_set/close_strings.rs" },
   { name = "equal_pairs", path = "exercises/hashmap_set/equal_pairs.rs" },
+  { name = "remove_stars", path = "exercises/stack/remove_stars.rs" },
+  { name = "asteroid_collision", path = "exercises/stack/asteroid_collision.rs" },
+  { name = "decode_string", path = "exercises/stack/decode_string.rs" },
 ]
 
 [package]

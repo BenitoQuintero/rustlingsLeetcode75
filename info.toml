@@ -267,3 +267,33 @@ Hint 2: Another loop is necessary to compare the row and column element by eleme
 Hint 3: It is also possible to hash the arrays and compare the hashed values instead.
 """
 test = true
+
+# Stack #
+
+# 2390. Removing Stars From a String
+[[exercises]]
+name = "remove_stars"
+dir = "stack"
+hint = """
+Use a stack to store the characters. Pop one character off the stack at each star. Otherwise, we push the character onto the stack.
+"""
+test = true
+
+# 735. Asteroid Collision
+[[exercises]]
+name = "asteroid_collision"
+dir = "stack"
+hint = """
+Say a row of asteroids is stable. What happens when a new asteroid is added on the right?
+"""
+test = true
+
+# 394. Decode String
+[[exercises]]
+name = "decode_string"
+dir = "stack"
+hint = """
+Good Luck!
+"""
+test = true
+
