@@ -297,3 +297,23 @@ Good Luck!
 """
 test = true
 
+# Queue #
+
+# 933. Number of Recent Calls
+[[exercises]]
+name = "recent_counter"
+dir = "queue"
+hint = """
+Use queue to track the calls
+"""
+test = true
+
+# 649. Dota2 Senate
+[[exercises]]
+name = "predict_party_victory"
+dir = "queue"
+hint = """
+Use two queues and assign tickets to the senators
+"""
+test = true
+

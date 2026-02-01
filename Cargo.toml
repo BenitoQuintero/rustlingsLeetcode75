@@ -26,6 +26,8 @@ bin = [
   { name = "remove_stars", path = "exercises/stack/remove_stars.rs" },
   { name = "asteroid_collision", path = "exercises/stack/asteroid_collision.rs" },
   { name = "decode_string", path = "exercises/stack/decode_string.rs" },
+  { name = "recent_counter", path = "exercises/queue/recent_counter.rs" },
+  { name = "predict_party_victory", path = "exercises/queue/predict_party_victory.rs" },
 ]
 
 [package]
