@@ -28,6 +28,10 @@ bin = [
   { name = "decode_string", path = "exercises/stack/decode_string.rs" },
   { name = "recent_counter", path = "exercises/queue/recent_counter.rs" },
   { name = "predict_party_victory", path = "exercises/queue/predict_party_victory.rs" },
+  { name = "delete_middle", path = "exercises/linked_list/delete_middle.rs" },
+  { name = "odd_even_list", path = "exercises/linked_list/odd_even_list.rs" },
+  { name = "reverse_list", path = "exercises/linked_list/reverse_list.rs" },
+  { name = "pair_sum", path = "exercises/linked_list/pair_sum.rs" },
 ]
 
 [package]

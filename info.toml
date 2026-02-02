@@ -317,3 +317,41 @@ Use two queues and assign tickets to the senators
 """
 test = true
 
+# Linked List #
+
+# 2095. Delete the Middle Node of a Linked List
+[[exercises]]
+name = "delete_middle"
+dir = "linked_list"
+hint = """
+If a point with a speed s moves n units in a given time, a point with speed 2 * s will move 2 * n units at the same time. Can you use this to find the middle node of a linked list?
+"""
+test = true
+
+# 328. Odd Even Linked List
+[[exercises]]
+name = "odd_even_list"
+dir = "linked_list"
+hint = """
+Keep track of each next pointer.
+"""
+test = true
+
+# 206. Reverse Linked List
+[[exercises]]
+name = "reverse_list"
+dir = "linked_list"
+hint = """
+Iterate through the list and swap the next pointers.
+"""
+test = true
+
+# 2130. Maximum Twin Sum of a Linked List
+[[exercises]]
+name = "pair_sum"
+dir = "linked_list"
+hint = """
+Use two different pointers pointing to the first nodes of the two halves of the linked list. The second pointer will point to the first node of the reversed half, which is the (n-1-i)th node in the original linked list. By moving both pointers forward at the same time, we find all twin sums.
+"""
+test = true
+
