@@ -355,3 +355,59 @@ Use two different pointers pointing to the first nodes of the two halves of the 
 """
 test = true
 
+# Binary Tree - DFS #
+
+# 104. Maximum Depth of Binary Tree
+[[exercises]]
+name = "max_depth"
+dir = "binary_tree_dfs"
+hint = """
+Recursively traverse the tree and keep track of the maximum depth.
+"""
+test = true
+
+# . 
+[[exercises]]
+name = "leaf_similar"
+dir = "binary_tree_dfs"
+hint = """
+Rust features makes this problem easy.
+"""
+test = true
+
+# 1448. Count Good Nodes in Binary Tree
+[[exercises]]
+name = "good_nodes"
+dir = "binary_tree_dfs"
+hint = """
+Use DFS (Depth First Search) to traverse the tree, and constantly keep track of the current path maximum.
+"""
+test = true
+
+# 437. Path Sum III
+[[exercises]]
+name = "path_sum"
+dir = "binary_tree_dfs"
+hint = """
+TODO
+"""
+test = true
+
+# 1372. Longest ZigZag Path in a Binary Tree
+[[exercises]]
+name = "longest_zig_zag"
+dir = "binary_tree_dfs"
+hint = """
+Create this function maxZigZag(node, direction) maximum zigzag given a node and direction (right or left).
+"""
+test = true
+
+# 236. Lowest Common Ancestor of a Binary Tree
+[[exercises]]
+name = "lowest_common_ancestor"
+dir = "binary_tree_dfs"
+hint = """
+TODO
+"""
+test = true
+
